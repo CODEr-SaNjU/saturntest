@@ -10,4 +10,4 @@ class TranscriptSerializer(serializers.ModelSerializer):
 class FinancialInfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = FinancialInfo
-        fields = ['id', 'transcript', 'type', 'fact']
+        fields = ['id', 'transcript', 'category', 'fact']

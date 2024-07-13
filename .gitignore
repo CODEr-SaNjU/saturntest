@@ -1,2 +1,4 @@
 /saturnvenv
-transcripts.txt
+.env
+*.pyc
+*.txt
